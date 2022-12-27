@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-100 bg-gradient-to-b from-gray-800 to-black text-white about"
+      className="w-full h-100 bg-gradient-to-b from-gray-800 to-black text-white about pb-5"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -21,9 +21,9 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-          I like to code projects from scratch and changing ideas to software  <br /> <br />
+          {/* I like to code projects from scratch and changing ideas to software  <br /> <br /> */}
           Working for both Startup and Big enterprise, I have developed, maintained and fixed application which are currently being used by
-          Hundreds of Thousands of users<br /> <br />
+          Hundreds of Thousands of users<br /><br />
           I am a passionate developer who loves his job and is willing to learn
           latest technology while developing and maintain applications which I believe makes people’s life a bit
           easier.

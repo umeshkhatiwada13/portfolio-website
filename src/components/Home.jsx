@@ -21,7 +21,7 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">Hi, I am Umesh</h2>
 
           <p className="text-gray-500 py-4 max-w-md">
-            If we are meeting for the first time, let me introduce myself. I am a Software developer by profession and a Computer Science Student. With my experince 
+           A Software developer by profession and a Computer Science Student. With my experince 
             and knowledge, i can help you turn your idea to fully functional system all from scratch 
             as well as maintain and support existing applications using Java and related technologies.
           </p>
