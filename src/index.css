@@ -75,7 +75,7 @@ body {
   .about,
   .contact,
   .portfolio,
-  .experience,
+  .tools,
   .home {
     text-align: center;
     height: 100%;
@@ -83,7 +83,7 @@ body {
 
   .about,
   .portfolio,
-  .experience {
+  .tools {
     margin-top: 10%;
   }
 
