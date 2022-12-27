@@ -18,7 +18,7 @@ const experiences = [
   {
     title: 'Java Engineer',
     company: 'Infodevelopers Pvt. Ltd.',
-    date: 'Febraury 2022 - Current',
+    date: 'Febraury 2022 - Present',
     description: [
       'Performing System Analysis and Design, Development, and Unit Testing in both Monolithic and Microservice architecture',
       'Mentoring and Teaching Junior developers and assigning them task based on their capabilities',
