@@ -1,30 +1,27 @@
 import React from "react";
-import api from "../assets/portfolio/api.jpg";
-import apod from "../assets/portfolio/apod.jpg";
-import iptracker from "../assets/portfolio/iptracker.jpg";
-import nftportal from "../assets/portfolio/nftportal.jpg";
-import webpostman from "../assets/portfolio/webpostman.jpg";
-import waveportal from "../assets/portfolio/waveportal.jpg";
+import crypto from "../assets/portfolio/crypto.PNG";
+import frontend from "../assets/portfolio/frontend.PNG";
+import healthsurvey from "../assets/portfolio/health_survey.PNG";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: api,
-      link: 'https://crypto-info-api.herokuapp.com/',
-      repo: 'https://github.com/rahulkarda/crypto-info-api'
+      src: healthsurvey,
+      link: 'http://gorkha.nagardemoapp.com/',
+      repo: null,
     },
     {
       id: 2,
-      src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      src: crypto,
+      link: 'https://anaikot-crypto.vercel.app/',
+      repo: 'https://github.com/umeshkhatiwada13/crypto-exchange-react'
     },
     {
       id: 3,
-      src: apod,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NASA-APOD'
+      src: frontend,
+      link: 'https://anaikotfrontend.vercel.app/services/',
+      repo: 'https://github.com/umeshkhatiwada13/anaikot-frontend'
     }
   ];
 
@@ -49,12 +46,13 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(link, '_blank')}>
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(link, '_blank')}>
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(repo, '_blank')}>
+
+                {repo !== null ? <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(repo, '_blank')}>
                   GitHub
-                </button>
+                </button> : ''}
               </div>
             </div>
           ))}
