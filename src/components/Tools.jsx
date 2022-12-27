@@ -97,13 +97,13 @@ const Tools = () => {
 
   return (
     <div
-      name="tools"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen tools"
+      name="technologies"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen technologies"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Tools
+            Tools and Technologies
           </p>
           {/* <p className="py-6 font-bold ">Infodevelopers 2021-02-Current</p> */}
           {/* <p className="font-bold inline">Java Developer  Digital Nepal(2019/02 - 2021/01)</p> */}
