@@ -14,14 +14,11 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-5">
-          I am a Software Engineer with 3 years’ experience primarily working and developing Applications using
+          I am a Software Engineer with 3+ years’ experience primarily working and developing Applications using
           Java programming language along with related technologies.
         </p>
-
         <br />
-
         <p className="text-xl">
-          {/* I like to code projects from scratch and changing ideas to software  <br /> <br /> */}
           Working for both Startup and Big enterprise, I have developed, maintained and fixed application which are currently being used by
           Hundreds of Thousands of users<br /><br />
           I am a passionate developer who loves his job and is willing to learn

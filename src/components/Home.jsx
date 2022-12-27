@@ -21,9 +21,8 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">Hi, I am Umesh</h2>
 
           <p className="text-gray-500 py-4 max-w-md">
-           A Passionate Student and Senior Software Engineer. With my experince 
-            and knowledge, i can help you turn your idea to reality using Technology. 
-            Also I can maintain and support existing applications built using Java and related technologies.
+          A Passionate Student and Senior Software Engineer. With my experience and knowledge, I can help you turn your idea into reality using Technology.
+          Also, I can maintain and support existing applications built using Java and related technologies.
           </p>
 
           <div className="portfolio-btn">

@@ -18,7 +18,7 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
-          <p className="py-6">Send me a message and I will reach back to you</p>
+          <p className="py-6">If you think I can assist you in any way, Send me a message and I will reach back to you.</p>
         </div>
         
         <div className=" flex justify-center items-center">
