@@ -18,7 +18,7 @@ const Home = () => {
           />
         </div>
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">Hi, I am Umesh</h2>
+          <h2 className="text-4xl sm:text-7xl font-bold text-white">Hi, I am Umesh 1</h2>
 
           <p className="text-gray-500 py-4 max-w-md">
           A Passionate Student and Senior Software Engineer. With my experience and knowledge, I can help you turn your idea into reality using Technology.
